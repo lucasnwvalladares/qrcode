@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'DefaultLayout',
   data () {
@@ -14,3 +15,7 @@ export default {
   }
 }
 </script>
+
+<style scope>
+  
+</style>

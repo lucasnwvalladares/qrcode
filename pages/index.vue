@@ -1,5 +1,7 @@
 <template>
-  <Card />
+  <div>
+    <Card />
+  </div>
 </template>
 
 <script>
@@ -11,5 +13,11 @@ export default {
 <style scope>
   html {
     background: hsl(212, 45%, 89%);
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
   }
 </style>
